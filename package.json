@@ -1,0 +1,25 @@
+{
+  "name": "hapi-hello-world",
+  "version": "0.0.0",
+  "description": "Hello world with hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "hapi",
+    "hello",
+    "world"
+  ],
+  "author": "me",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "hapi": "~1.10.0"
+  },
+  "devDependencies": {
+    "lab": "*"
+  },
+  "scripts": {
+	 "test": "node_modules/lab/bin/lab"
+  }
+}
